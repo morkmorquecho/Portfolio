@@ -38,7 +38,7 @@ export default function Page() {
           </h2>
           <div className="flex flex-wrap items-center justify-center gap-3">
             <a
-              href="mailto:hola@Matias.dev"
+              href="mailto:mork.morquecho@gmail.com"
               className="inline-flex items-center gap-2 rounded-full bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground transition-opacity hover:opacity-90"
             >
               <Mail className="size-4" />

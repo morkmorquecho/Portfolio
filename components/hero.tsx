@@ -46,14 +46,14 @@ export function Hero() {
               <FaGithub className="size-5" />
             </a>
             <a
-              href="#"
+              href="https://www.linkedin.com/in/matias-morquecho-52679633b/"
               className="flex size-10 items-center justify-center rounded-full border border-border text-foreground transition-colors hover:bg-secondary"
               aria-label="LinkedIn"
             >
               <FaLinkedinIn className="size-5" />
             </a>
             <a
-              href="mailto:hola@Matias.dev"
+              href="mailto:mork.morquecho@gmail.com"
               className="flex size-10 items-center justify-center rounded-full border border-border text-foreground transition-colors hover:bg-secondary"
               aria-label="Correo"
             >
