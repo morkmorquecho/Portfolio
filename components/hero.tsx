@@ -53,9 +53,11 @@ export function Hero() {
               <FaLinkedinIn className="size-5" />
             </a>
             <a
-              href="mailto:mork.morquecho@gmail.com"
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=mork.morquecho@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex size-10 items-center justify-center rounded-full border border-border text-foreground transition-colors hover:bg-secondary"
-              aria-label="Correo"
+              aria-label="Enviar correo por Gmail"
             >
               <Mail className="size-5" />
             </a>
