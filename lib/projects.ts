@@ -27,7 +27,7 @@ export const projects: Project[] = [
     description:
       "Plataforma de gestión financiera personal que utiliza la metáfora de archipiélagos e islas para organizar tus finanzas: cada propósito financiero es un archipiélago y cada cuenta, una isla. Calcula intereses, registra movimientos, permite establecer metas de ahorro y visualiza activos y criptomonedas en tiempo real..",
     tech: ["Django", "Vue", "PostgreSQL", "Redis"],
-    accent: "oklch(0.165 0.04 18)",
+    accent: "oklch(0.7 0.1 198)",
     link: "https://islandfinance.cc",
     image: "/projects/islandfinance.jfif",
   },
