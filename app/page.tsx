@@ -17,7 +17,7 @@ export default function Page() {
             Cosas que he construido
           </h2>
           <p className="max-w-2xl text-muted-foreground text-pretty">
-            Cada proyecto tiene su propio color. Reproduce los videos o haz clic en las imágenes
+            Reproduce los videos o haz clic en las imágenes
             para verlos de cerca.
           </p>
         </div>
