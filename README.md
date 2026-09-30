@@ -14,7 +14,7 @@ Full-stack developer who builds complete products end to end: REST APIs, modern 
 
 A personal finance app built around an archipelago metaphor: financial modules are archipelagos and your accounts are islands.
 
-![Island Finance](./public/projects/islandfinance.jpg)
+![Island Finance](./public/projects/islandfinance.jfif)
 
 - Track cash, stocks and crypto across multiple accounts, with currency separation and MXN aggregation
 - Live market data from CoinGecko, Twelve Data and Banxico, with smart caching
@@ -34,7 +34,6 @@ A personal finance app built around an archipelago metaphor: financial modules a
 A large e-commerce platform, art portfolio and blog in one, running in production.
 
 ![Colección Lorenza](./public/projects/lorenza.png)
-![Colección Lorenza on Etsy](./public/projects/etsy.png)
 
 - Full store with cart, checkout and wishlist
 - Stripe payments (live mode)
