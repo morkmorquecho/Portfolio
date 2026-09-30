@@ -31,17 +31,19 @@ A personal finance app built around an archipelago metaphor: financial modules a
 
 ### 🎨 Colección Lorenza
 
-A large e-commerce platform, art portfolio and blog in one, running in production.
+A bilingual, production-grade platform that brings together an art e-commerce store, a portfolio of original work and a full blog, all in one place. Designed from scratch and built end to end: REST API, responsive interface, payments, media pipeline, email delivery and cloud deployment, with real customers buying through it.
 
 ![Colección Lorenza](./public/projects/lorenza.png)
 
-- Full store with cart, checkout and wishlist
-- Stripe payments (live mode)
-- Bilingual content (ES/EN) with django-modeltranslation
-- Media management with Cloudflare R2, including HEIC image uploads
-- Transactional email with Resend
-- Client-side caching with Pinia (TTL-based)
-- Multi-currency price display
+- **Complete shopping experience:** product catalog, cart, checkout and wishlist/favorites
+- **Live payments** with Stripe, migrated and running in live mode
+- **Fully bilingual (ES/EN):** content translated at the model level with django-modeltranslation, and API responses driven by the `Accept-Language` header
+- **Multi-currency pricing** with dynamic formatting across the storefront
+- **Media pipeline on Cloudflare R2**, including HEIC image uploads (the format phones produce) for seamless art photography
+- **Transactional email** with Resend (order and account notifications)
+- **Performance-minded frontend:** TTL-based Pinia caching with per-query cache keys to cut redundant API calls
+- **Production-ready infrastructure:** Dockerized Django API on Railway with PostgreSQL and Redis, static files served with WhiteNoise, custom domain with proper CSRF and proxy SSL configuration, and the Vue frontend on Vercel
+- **Art portfolio and blog** sections to showcase the artist's work and tell the story behind it
 
 **Stack:** Django REST Framework, Vue 3, Pinia, PostgreSQL, Redis, Stripe, Cloudflare R2, Resend, Docker, Railway, Vercel
 
@@ -62,7 +64,7 @@ A diabetes management app with an AI-powered chatbot.
 
 **Stack:** Spring Boot, React, OpenAI API
 
-🎥 [Watch the demo](https://www.youtube.com/watch?v=D8alwyK5eeE) · 💻 [Backend](https://github.com/morkmorquecho/TU-REPO-API-GLUCO) · [Frontend](https://github.com/morkmorquecho/TU-REPO-WEB-GLUCO)
+🎥 [Watch the demo](https://www.youtube.com/watch?v=D8alwyK5eeE) · repo privado
 
 ---
 
